@@ -66,14 +66,7 @@ extension ControlCenter {
         {
             numberOfWalls++
         }
-        // TODO: Check if there is a wall to the left of the current cell
-        
-        
-        // Step 2.1b
-        // TODO: Test the checkWalls function.
-        
-        // TODO: Return a tuple representing the bools for top, right, down & left, and the number of walls
-        // This tuple is a placeholder
+      
         return (isWallUp  , isWallRight, isWallBotton, isWallLeft, numberOfWalls)
 
     }
