@@ -19,24 +19,17 @@ extension ControlCenter {
         
         switch(direction) {
         case .Up:
-            if cell.top {
-                isWall = true
-            }
+            isWall = cell.top
+            
         case .Down:
-            if cell.bottom
-            {
-                isWall = true
-            }
+            isWall = cell.bottom
+            
         case .Left:
-            if cell.left
-            {
-                isWall = true
-            }
+            isWall = cell.left
+            
         case .Right:
-            if cell.right
-            {
-                isWall = true
-            }
+            isWall = cell.right
+            
             
         }
         

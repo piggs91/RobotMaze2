@@ -42,8 +42,8 @@ class ControlCenter {
         }
         else if isDeadEnd && robotIsBlocked
         {
-            randomlyRotateRightOrLeft(robot)
-        }
+         robot.rotateLeft()        
+}
       
 
         
